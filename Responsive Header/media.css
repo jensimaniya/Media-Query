@@ -1,0 +1,33 @@
+@media only screen and (max-width: 768px) {
+  .ListItem a {
+    font-size: 30px;
+  }
+  .ItemMenu {
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .ItemMenu {
+    display: none;
+  }
+  .icon {
+    display: block;
+    font-size: 45px;
+    padding-top: 20px;
+    padding-left: 60px;
+  }
+
+  .BrandName {
+    font-size: 55px;
+    padding-top: 10px;
+    padding-left: 150px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .BrandName {
+    font-size: 40px;
+    padding-left: 50px;
+  }
+}

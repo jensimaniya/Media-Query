@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+}
+.ItemMenu {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  padding-top: 15px;
+}
+.ListItem a {
+  text-decoration: none;
+  font-size: 35px;
+}
+.BrandName {
+  font-size: 45px;
+  padding-top: 10px;
+}
+
+.icon {
+  display: none;
+}
